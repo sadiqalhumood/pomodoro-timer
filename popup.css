@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #C8B7A6;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  text-align: center;
+}
+
+.container {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #C8B7A6;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.timer-display {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.buttons button {
+
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #000;
+  background: #C8B7A6;
+  line-height: 16px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: #7d94b5 -2px -2px 0px 2px, #b6c199 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transition: all 0.2s;
+  margin: 10px;
+
+
+
+}
+
+.buttons button:hover {
+  box-shadow: #b6c199 -2px -2px 0px 2px, #7d94b5 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transform: scale(1.01);
+}
